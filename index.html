@@ -71,17 +71,11 @@ if (result != null){
 	document.getElementById('output3').textContent = '出現しませんでした。';
 }
 
-
 	return false;
 };
 
-
-
-
 </script>
 </body>
-
-
 
 </html>
 
@@ -112,6 +106,26 @@ if (result != null){
 
 
 
+<html>
+<head>
+<meta charset="utf-8">
+<title>マインスイーパ（JavaScript）-Webブラウザ用フリーソフト-</title>
+<link href="../css/style.css" rel="stylesheet" type="text/css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<div id="main_holder">
+<header id="main_header">
+<nav><ul id="header_nav_items"><li><a href="../">HOME</a></li><li><a href="./">Webゲーム</a></li></ul></nav></header>
+<section id="main_contents">
+<article id="contents_article">
+<h1>マインスイーパ</h1>
+
+<div class="item_area">
+<div class="item_view">
+
+<script>
 
 
 
@@ -125,15 +139,6 @@ if (result != null){
 
 
 
-
-
-/*
-	マインスイーパ
-
-	2010-06-12 創作プログラミングの街
-
-	ゲーム画面表示用のHTMLタグやスタイルシート設定などすべてコードに含まれているので、scriptタグで貼り付けるだけで実行できます
-*/
 
 //セル情報配列作成
 var fjsMineSwCellValue = Array();
@@ -785,3 +790,64 @@ function fjsMineSwIsClear() {
 	return true;
 
 }
+
+
+
+</script>
+
+
+
+
+
+
+
+<p>マインスイーパは、地雷原の地雷探しを行うパズルゲームです。</p>
+
+<p>開始ボタンをクリックし適当なマス目をクリックすると、地雷が配置されゲームが始まります。あとは、地雷に触れないよう注意しながらマス目をクリックして、地雷原を掃除してください。</p>
+
+<p>マインスイーパでは、地雷以外のマス目をすべてクリアすればゲームクリア、地雷のあるマス目をクリックするとゲームオーバーとなります。</p>
+
+<p>クリアしたマスには、「隣接（上下左右斜め）するマスにある地雷の数」が表示されています。この数字をもとに、どのマスに地雷があるのか推理しましょう。</p>
+
+<p>フラグ設置ボタンにチェックを入れるか、CTRLキーを押しながらクリックするとそのマスにフラグ（旗）を配置することが出来ます。地雷がありそうな場所に配置しておけば、目印になるでしょう。</p>
+
+<p>このマインスイーパは、JavaScriptで記述されたWebブラウザ用フリーソフトです。ゲーム画面が表示されない場合は、JavaScriptの設定をご確認ください。</p>
+</div>
+</div>
+
+<p><a href="src/fjsMineSw.txt">マインスイーパソースコード</a>（JavaScript、UTF-8）</p>
+<div id="contents_footer_ad"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- auto_banner -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3500802105933440"
+     data-ad-slot="9609810374"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+<hr>
+<p><a href="../">創作プログラミングの街</a></p></article>
+<aside id="contents_aside_a">
+<div id="aside_ad"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- auto_banner -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3500802105933440"
+     data-ad-slot="9609810374"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div></aside>
+<aside id="contents_aside_b">
+</aside>
+</section>
+<footer id="main_footer">
+<p id="main_footer_info"><a href="../prof.html">制作者</a></p>
+</footer>
+</div>
+
+</body>
+</html>
